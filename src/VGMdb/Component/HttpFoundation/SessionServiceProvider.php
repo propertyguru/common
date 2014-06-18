@@ -29,7 +29,7 @@ class SessionServiceProvider extends BaseSessionServiceProvider
         $this->app = $app;
 
         $app['session.storage.handler'] = $app->share(function ($app) {
-            if (extension_loaded('redis')) {
+            if (extension_loaded('redis') && isset($app['session.storage.handler.redis'])) {
                 return new NativeRedisSessionHandler();
             } else {
                 return new NativeFileSessionHandler($app['session.storage.save_path']);
