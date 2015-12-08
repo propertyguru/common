@@ -1,6 +1,6 @@
 {
-    "name": "vgmdb/common",
-    "description": "VGMdb core framework",
+    "name": "propertyguru/common",
+    "description": "Propertyguru's fork of VGMdb core framework",
     "keywords": [],
     "homepage": "http://vgmdb.net",
     "authors": [
