@@ -1,6 +1,8 @@
 The VGMdb Library Commons
 =========================
 
+[![Join the chat at https://gitter.im/propertyguru/common](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/propertyguru/common?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Extends the [Silex] [1] microframework to do the thing with the stuff.
 
 [![Build Status](https://travis-ci.org/vgmdb/common.png?branch=master)](https://travis-ci.org/vgmdb/common) [![Coverage Status](https://coveralls.io/repos/vgmdb/common/badge.png?branch=master)](https://coveralls.io/r/vgmdb/common?branch=master)
